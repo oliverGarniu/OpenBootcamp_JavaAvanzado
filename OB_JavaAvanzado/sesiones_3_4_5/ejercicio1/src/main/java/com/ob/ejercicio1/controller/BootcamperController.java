@@ -3,7 +3,6 @@ package com.ob.ejercicio1.controller;
 import com.ob.ejercicio1.model.Bootcamper;
 import com.ob.ejercicio1.service.BootcamperService;
 import jakarta.ws.rs.*;
-
 import jakarta.ws.rs.core.Response;
 import org.springframework.stereotype.Component;
 
@@ -42,6 +41,10 @@ public class BootcamperController {
         return bootcamperService.getBootcamper(name);
     }
 
+    /**
+     * Obtenemos la edad media de los bootcampers
+     * @return
+     */
     @GET
     @Path("/bootcampers/average")
     public String getAverageAge() {
