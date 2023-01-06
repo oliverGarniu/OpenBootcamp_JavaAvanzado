@@ -1,6 +1,7 @@
 ## Ejercicio 1
 
 * Prueba el endpoint bootcampers que se ha visto en la teoría utilizando Postman, realiza como mínimo dos peticiones diferentes.
+* Jersey
 
 ## Ejercicio 2
 
