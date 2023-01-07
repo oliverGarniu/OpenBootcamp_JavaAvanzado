@@ -5,11 +5,11 @@ public class Main {
 
         /*
         Comprobamos como efectivamente no es posible
-        crear objetos con el operado new ConexionBaseDatos().
+        crear objetos con el operador new ConexionBaseDatos().
         ConexionBaseDatos conexion = new ConexionBaseDatos();
          */
 
-        /**
+        /*
          * La primera vez que llamamos al método getInstance(),
          * al no existir ningún objeto se crea uno nuevo.
          * La siguiente vez al haber ya un objeto creado, la segunda "instancia"
