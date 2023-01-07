@@ -2,21 +2,24 @@
  
   ## Creational 
 
-    - Singleton
+  - Singleton
 
-    - Factory
+  - Factory
 
-    - Builder
+  - Builder
 
-    - Prototype
+  - Prototype
+  
 
   ## Structural 
 
-   - Decorator
+  - Decorator
 
-   - Adapter
+  - Adapter
 
-   - Facade
+  - Facade
+
    
+
 
 # - Crea una pequeña aplicación implementando el patrón Singlenton y demuestra que, efectivamente, no crea instancias nuevas. Puedes tomar la sesión 7 como referencia.
