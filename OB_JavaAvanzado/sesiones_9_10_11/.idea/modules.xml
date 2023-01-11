@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejercicio1/ejercicio1.iml" filepath="$PROJECT_DIR$/ejercicio1/ejercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio2/ejercicio2.iml" filepath="$PROJECT_DIR$/ejercicio2/ejercicio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sesiones_9_10_11.iml" filepath="$PROJECT_DIR$/.idea/sesiones_9_10_11.iml" />
     </modules>
   </component>

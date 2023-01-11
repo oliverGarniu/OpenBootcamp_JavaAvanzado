@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "b7eb6c24-5752-4904-8f63-40302916e881",
+		"name": "OB Jersey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19462959"
+	},
+	"item": [
+		{
+			"name": "getAllBootcampers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/bootcampers",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOneBootcamper",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/bootcampers/Ona",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers",
+						"Ona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBootcamper",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Nil\",\n    \"age\": 37\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/bootcampers",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteOneBootcamper",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/bootcampers/ona",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers",
+						"ona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAllBootcampers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/bootcampers",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAverageAge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/bootcampers/average",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"bootcampers",
+						"average"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
