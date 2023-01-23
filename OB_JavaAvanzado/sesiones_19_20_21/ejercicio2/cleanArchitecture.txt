@@ -1,0 +1,17 @@
+
+La arquitectura limpia se basa en la premisa de estructurar el código en capas contiguas, que solo se comunican con las capas que están justo a sus lados. Cada capa, o nivel, debe realizar sus propias tareas (separación de responsabilidades) y se comunica únicamente con sus niveles contiguos.
+
+Los niveles serían Controllers, Interfaces adaptadoras, Use Cases y Entities. 
+La primera capa, Entidades, es la que define la lógica de negocio. La capa de Casos de Uso contendrá todo lo que ocurra en la aplicación, todas sus funciones. Las Interfaces adaptadoras serían funciones que implementan acciones. La capa de Controladores tiene la función de comunicarse con las bases de datos, presentar info en una interfaz de usuario, etc.
+
+Las ventajas de aplicar Clean Architecture son:
+- Independencia: cada capa tiene su propio modelo de arquitectura, sin afectar al resto de niveles.
+- Estructuración: mejora la estructuración del código.
+- Desacoplamiento: cada capa es independiente de las demás, por lo tanto se podría reemplazar y/o reutilizar en distintos proyectos.
+- Facilidad de testeo: se podrán llevar a cabo test unitarios de cada una de las capas y test de integración de las distintas capas entre sí, reemplazándolas por objetos temporales que simulen su comportamiento de forma sencilla.
+
+Por otro lado hay que tener en cuenta que es una metodología más compleja y que por lo tanto la velocidad de desarrollo al comienzo del proyecto será menor, además del hecho de que todo el equipo de desarrollo debe conocer la metodología que se está aplicando.
+
+Esta metodología sería ideal para proyectos a largo plazo, facilitando el testeo y permitiendo realizar cambios y que éstos tengan un mínimo impacto (mantenible y testeable).
+
+Una manera de llevar a cabo una arquitectura limpia sería aplicando los principios SOLID.
