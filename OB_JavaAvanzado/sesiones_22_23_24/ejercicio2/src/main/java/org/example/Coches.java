@@ -30,6 +30,7 @@ public class Coches {
         if (obtenerCoche(coche.getId()) != null) {
             return;
         }
+        listadoCoches.add(coche);
         cochesDB.insertarCoche(coche);
     }
 
