@@ -4,8 +4,8 @@ Continúa con el proyecto de los anteriores ejercicios ahora se va a trabajar so
 
 * Ejercicio 1: Si no has creado interfaces ya, créalas siguiendo el principio de segregación de interfaz (I) el cual indica que las interfaces grandes se deben segregar en varias interfaces pequeñas. Si ya las has creado, modifícalas para que cumplan el principio.
 
-
 * Ejercicio 2: Deberás crear una conexión a base de datos aplicando el último principio de la inversión de dependencias (D).
 
-
 * Ejercicio 3: Clean Architecture.
+
+* Ejercicio 4: Añadir patrón Builder y Factory al proyecto.

@@ -1,0 +1,1 @@
+2,ELECTRICO,280,250,blanco

@@ -1,4 +1,4 @@
-
+# Ejercicios sesiones 9, 10 y 11
 ## Refactoring
 
 - Ejercicio1: Aplica a uno de los proyectos anteriores un patrón de comportamiento de los vistos durante la sesión 9 y explica por qué has escogido ese patrón en concreto.
